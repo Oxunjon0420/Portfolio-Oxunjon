@@ -54,7 +54,7 @@ export default function Body({
   };
 
   return (
-    <div className={cn(styles.body, "flex flex-col items-end md:flex-row")}>
+    <div className={cn(styles.body, "flex flex-col items-end md:flex-row gap-6")}>
       {links.map((link, index) => {
         const { title, href, target } = link;
 
@@ -67,7 +67,7 @@ export default function Body({
           >
             <motion.p
               className={cn(
-                "rounded-lg",
+                "rounded-lg text-3xl md:text-4xl",
                 currentHref !== href ? "text-muted-foreground" : "underline"
               )}
               onClick={() => setIsActive(false)}

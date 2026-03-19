@@ -7,6 +7,11 @@ const links: Link[] = [
     thumbnail: '/assets/nav-link-previews/pro.png'
   },
   {
+    title: "Men haqimda",        // ← yangi qo'shildi
+    href: '/#about',
+    thumbnail: '/assets/nav-link-previews/men.png'
+  },
+  {
     title: "Ko'nikmalar",
     href: '/#skills',
     thumbnail: '/assets/nav-link-previews/kon.png'

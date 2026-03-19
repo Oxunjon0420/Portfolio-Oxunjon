@@ -1,5 +1,5 @@
 "use client";
-
+import AboutSection from "@/components/sections/about";
 import React from "react";
 import SmoothScroll from "@/components/smooth-scroll";
 import { cn } from "@/lib/utils";
@@ -18,6 +18,7 @@ function MainPage() {
             <AnimatedBackground />
           </div>
           <HeroSection />
+          <AboutSection />
           <SkillsSection />
           <ProjectsSection />
           <ContactSection />
